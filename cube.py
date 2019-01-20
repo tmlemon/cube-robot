@@ -27,7 +27,6 @@ def getSquareColors(image):
         pixMap.append(hold)
     pixMap = np.array(pixMap)
     
-    
     tl = pixMap[0:int(len(pixMap[0])/3)+1,0:int(len(pixMap)/3)+1]
     tm = pixMap[0:int(len(pixMap[0])/3)+1,\
         int(len(pixMap)/3)+1:2*int(len(pixMap)/3)+1]
@@ -75,5 +74,4 @@ def getSquareColors(image):
     txtColors = np.array(txtColors)
     return txtColors
     
-txtColors = getSquareColors('cube.jpg')
-print(txtColors)
+print("hello")
